@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}HS Caculator{% endblock %}
+{% block content %}
+<form action="#" method="POST">
+    
+    <p>Total winning needed [0~150]</p>
+    <input type="text" name="total_winning_needed" />
+    <p>Present winning streak bounce [0~10]</p>
+    <input type="text" name="winning_streak_bounce" />
+    <p>Present winning rate [0~1]</p>
+    <input type="text" name="winning_rate" />
+
+    <input type="submit" value="submit" />
+</form>
+{% endblock %}

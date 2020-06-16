@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}{% endblock %}
+    </title>
+    {% endblock %}
+</head>
+<body>
+    <header>
+        <h1>Hearthstone Winning Caculator</h1>
+        <p>--by Zhiyu Wang</p>
+    </header>
+    <div id="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    
+    
+</body>
+</html>
